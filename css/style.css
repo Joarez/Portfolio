@@ -9,7 +9,7 @@ body{
 
     font-family:'Segoe UI', Arial, sans-serif;
 
-    background:#0f172a;
+    background:#16263d;
 
     color:#ffffff;
 
@@ -49,7 +49,7 @@ body{
 
 .badge{
 
-    background:#1e293b;
+    background:#243b55;
 
     padding:10px 20px;
 
@@ -57,7 +57,7 @@ body{
 
     margin-bottom:20px;
 
-    color:#38bdf8;
+    color:#4cc9f0;
 
     font-weight:bold;
 
@@ -79,7 +79,7 @@ h2{
 
     font-size:2rem;
 
-    color:#38bdf8;
+    color:#4cc9f0;
 
     margin-bottom:20px;
 
@@ -95,7 +95,7 @@ h2{
 
     line-height:1.8;
 
-    color:#cbd5e1;
+    color:#d5e3f0;
 
 }
 
@@ -155,7 +155,7 @@ h2{
 
 .primary{
 
-    background:#38bdf8;
+    background:#4cc9f0;
 
     color:white;
 
@@ -165,9 +165,9 @@ h2{
 
 .secondary{
 
-    border:1px solid #38bdf8;
+    border:1px solid #4cc9f0;
 
-    color:#38bdf8;
+    color:#4cc9f0;
 
 }
 
@@ -187,7 +187,7 @@ h2{
 
 .stat h3{
 
-    color:#38bdf8;
+    color:#4cc9f0;
 
     font-size:2rem;
 
@@ -196,6 +196,6 @@ h2{
 
 .stat p{
 
-    color:#cbd5e1;
+    color:#d5e3f0;
 
 }
