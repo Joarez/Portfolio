@@ -85,7 +85,6 @@ h2{
     color:#4cc9f0;
 }
 
-
 .stats{
     display:flex;
     gap:40px;
@@ -118,7 +117,6 @@ h2{
     z-index:1000;
 }
 
-
 .logo{
     font-size:1.5rem;
     font-weight:bold;
@@ -140,6 +138,54 @@ h2{
 
 .nav-links a:hover{
     color:#4cc9f0;
+}
+
+/* SOBRE */
+
+.section{
+    padding:80px 20px;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2.5rem;
+    color:#4cc9f0;
+    margin-bottom:30px;
+}
+
+.section-text{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    line-height:1.8;
+    font-size:1.1rem;
+    color:#d5e3f0;
+}
+
+.about-cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    margin-top:50px;
+}
+
+.about-card{
+    background:#243b55;
+    padding:30px;
+    border-radius:12px;
+    width:280px;
+    text-align:center;
+}
+
+.about-card h3{
+    color:#4cc9f0;
+    margin-bottom:15px;
+}
+
+.about-card p{
+    color:#d5e3f0;
+    line-height:1.6;
 
 }
 
