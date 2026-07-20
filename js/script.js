@@ -1,10 +1,8 @@
-const reveals = document.querySelectorAll(".reveal");
-window.addEventListener("scroll", () => {
-    reveals.forEach((element) => {
-        const windowHeight = window.innerHeight;
-        const revealTop = element.getBoundingClientRect().top;
-        if(revealTop < windowHeight - 100){
-            element.classList.add("active");
-        }
-    });
+const pages = document.querySelectorAll(".page");
+let currentPage = 0;
+document.addEventListener("click", () => {
+    if(currentPage < pages.length - 1){
+        pages[currentPage].classList.add("flipped");
+        currentPage++;
+    }
 });
