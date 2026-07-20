@@ -21,3 +21,14 @@ nextButtons.forEach(button => {
         }
     });
 });
+
+const prevButtons = document.querySelectorAll(".prev-page-btn");
+prevButtons.forEach(button => {
+    button.addEventListener("click", (event) => {
+        event.stopPropagation();
+        if(currentPage > 0){
+            currentPage--;
+            pages[currentPage].classList.remove("flipped");
+        }
+    });
+});
