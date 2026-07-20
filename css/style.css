@@ -238,7 +238,7 @@ body{
     align-items:center;
     padding:15px;
     background-color: #eeeeee;
-    border-radius: 5px; 
+    border-radius: 10px; 
 }
 .highlight-card:hover{
     transform:translateY(-5px);
