@@ -237,6 +237,7 @@ body{
     justify-content:center;
     align-items:center;
     padding:15px;
+    border:1px solid #4cc9f0;
 }
 .highlight-card:hover{
     transform:translateY(-5px);
