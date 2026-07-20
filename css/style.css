@@ -79,6 +79,15 @@ h2{
     text-decoration:none;
 }
 
+.btn{
+    transition:all .3s ease;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(76,201,240,.25);
+}
+
 .primary{
     background:#4cc9f0;
     color:white;
@@ -190,6 +199,17 @@ h2{
 .about-card p{
     color:#d5e3f0;
     line-height:1.6;
+}
+
+.about-card,
+.skill-box{
+    transition:all .3s ease;
+}
+
+.about-card:hover,
+.skill-box:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(76,201,240,.15);
 }
 
 /* SKILLS PROFISSIONAIS */
