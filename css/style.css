@@ -124,6 +124,22 @@ body{
     color:#777;
     font-size:.9rem;
 }
+/* Ícones da CAPA */
+.cover-tags{
+    display:flex;
+    gap:12px;
+    margin-top:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.cover-tags span{
+    background:#243b55;
+    color:#4cc9f0;
+    padding:10px 15px;
+    border-radius:20px;
+    font-size:.9rem;
+}
 
 #page1{
     z-index:2;
