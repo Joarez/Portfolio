@@ -9,14 +9,15 @@ body{
     height:100vh;
     display:flex;
     justify-content:center;
-    align-items:center;
+    align-items:flex-start;
+    padding-top:40px;
     overflow:hidden;
     font-family:Arial, sans-serif;
 }
 
 .book{
-    width:900px;
-    height:600px;
+    width:950px;
+    height:680px;
     position:relative;
     perspective:3000px;
 }
