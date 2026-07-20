@@ -292,7 +292,7 @@ body{
     margin-top:10px;
 }
 .skill-item{
-    margin-bottom:12px;
+    margin-bottom:8px;
 }
 .skill-header{
     font-size:.9rem;
@@ -318,7 +318,7 @@ body{
     display:grid;
     grid-template-columns:repeat(3,1fr);
     gap:12px;
-    margin-bottom:20px;
+    margin-bottom:10px;
 }
 .skill-card h3{
     font-size:.95rem;
