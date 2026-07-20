@@ -138,6 +138,7 @@ body{
     color:#4cc9f0;
     padding:10px 16px;
     border-radius:10px;
+    border: 1px solid #4cc9f0;
     font-size:.9rem;
     font-weight:600;
 }
