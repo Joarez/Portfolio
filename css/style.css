@@ -188,3 +188,68 @@ body{
     z-index:1;
 }
 
+/* PAGINA INTERNA Capítulo 1 */
+.chapter{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+.chapter-number{
+    color:#4cc9f0;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-bottom:15px;
+}
+
+.chapter-title{
+    font-size:3rem;
+    color:#243b55;
+}
+
+.chapter-line{
+    width:120px;
+    height:4px;
+    background:#4cc9f0;
+    margin:20px 0 40px;
+}
+
+.chapter-text{
+    color:#444;
+    line-height:2;
+    text-align:justify;
+}
+
+.author-highlights{
+    display:flex;
+    justify-content:space-between;
+    margin-top:auto;
+    padding-top:40px;
+    border-top:1px solid #ddd;
+}
+
+.highlight{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.highlight strong{
+    color:#243b55;
+    font-size:1.2rem;
+}
+
+.highlight span{
+    color:#777;
+    margin-top:5px;
+}
+
+.page-number{
+    position:absolute;
+    bottom:25px;
+    right:40px;
+    color:#999;
+    font-style:italic;
+}
+
