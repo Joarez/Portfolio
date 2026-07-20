@@ -319,8 +319,20 @@ body{
     grid-template-columns:repeat(3,1fr);
     gap:12px;
     margin-bottom:10px;
-    background-color: #818181;
     border-radius: 10px;
+}
+.skill-card{
+    background:linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+    border:1px solid #dbe4ee;
+    border-radius:12px;
+    padding:14px;
+    box-shadow:
+        0 4px 10px rgba(0,0,0,.05);
+    transition:.3s ease;
+}
+.skill-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 10px 20px rgba(0,0,0,.12);
 }
 .skill-card h3{
     font-size:.95rem;
