@@ -319,4 +319,8 @@ body{
 .skills-book{
     margin-top:15px;
 }
+.skill-card h3{
+    font-size:1rem;
+}
+
 
