@@ -231,13 +231,13 @@ body{
 }
 .highlight-card{
     flex:0 0 200px;
-    min-height:50px;
+    min-height:60px;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
     padding:15px;
-    border:1px solid #4cc9f0;
+    background-color: #eeeeee;
 }
 .highlight-card:hover{
     transform:translateY(-5px);
