@@ -266,13 +266,14 @@ body{
 .next-page-btn{
     position:absolute;
     bottom:25px;
-    left:40px;
+    right:40px;
     background:#243b55;
     color:#4cc9f0;
     padding:12px 20px;
     border-radius:30px;
     cursor:pointer;
     transition:.3s;
+    z-index:100;
 }
 .next-page-btn:hover{
     background:#4cc9f0;
