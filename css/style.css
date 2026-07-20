@@ -230,8 +230,8 @@ body{
     margin-top:20px;
 }
 .highlight-card{
-    flex:0 0 220px;
-    min-height:80px;
+    flex:0 0 200px;
+    min-height:50px;
     display:flex;
     flex-direction:column;
     justify-content:center;
