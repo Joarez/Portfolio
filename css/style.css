@@ -31,7 +31,6 @@ body{
     border-radius:10px;
     z-index:-1;
 }
-
 .page{
     position:absolute;
     width:100%;
@@ -45,15 +44,12 @@ body{
     transform-style:preserve-3d;
     backface-visibility:hidden;
     cursor:default;
-    z-index:1;
 }
-#page2{ z-index:2; }
-#page3{ z-index:3; }
-#page4{ z-index:4; }
+#page1{ z-index:4; }
+#page2{ z-index:3; }
+#page3{ z-index:2; }
+#page4{ z-index:1; }
 
-.page.active{
-    z-index:100;
-}
 .hint{
     position:absolute;
     bottom:30px;
