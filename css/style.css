@@ -108,6 +108,10 @@ body{
 .page.flipped{
     transform:rotateY(-180deg);
     pointer-events:none;
+    transition-duration:1s;
+}
+.page:not(.flipped){
+    transition-duration:.5s;
 }
 
 /* CAPA */
