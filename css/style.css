@@ -44,7 +44,7 @@ body{
     transition:transform 1.5s cubic-bezier(.77,0,.175,1);
     transform-style:preserve-3d;
     backface-visibility:hidden;
-    cursor:pointer;
+    cursor:default;
     z-index:1;
 }
 .page.active{
