@@ -371,33 +371,36 @@ body{
 /*Capitulo 3 -> Pagina 4 */
 .timeline{
     position:relative;
-    margin-top:25px;
-    padding-left:40px;
+    margin-top:15px;
+    padding-left:30px;
 }
 .timeline::before{
     content:"";
     position:absolute;
-    left:10px;
+    left:8px;
     top:0;
-    width:4px;
+    width:3px;
     height:100%;
     background:#4cc9f0;
-    border-radius:10px;
 }
 .timeline-item{
     position:relative;
-    margin-bottom:25px;
+    margin-bottom:12px;
 }
-.timeline-item::before{
+.timeline{
+    position:relative;
+    margin-top:15px;
+    padding-left:30px;
+}
+.timeline::before{
     content:"";
     position:absolute;
-    left:-38px;
-    top:8px;
-    width:16px;
-    height:16px;
-    border-radius:50%;
+    left:8px;
+    top:0;
+    width:3px;
+    height:100%;
     background:#4cc9f0;
-    border:3px solid white;
+     border:3px solid white;
 }
 .timeline-year{
     color:#4cc9f0;
@@ -406,22 +409,21 @@ body{
 }
 .timeline-content{
     background:#243b55;
-    color:white;
-    padding:15px;
-    border-radius:12px;
-    box-shadow:0 4px 10px rgba(0,0,0,.15);
+    padding:10px 14px;
+    border-radius:10px;
 }
 .timeline-content h3{
-    margin-bottom:5px;
-    color:#4cc9f0;
+    font-size:1rem;
+    margin-bottom:2px;
 }
 .timeline-content p{
-    font-weight:600;
-    margin-bottom:5px;
+    font-size:.85rem;
+    margin-bottom:2px;
 }
 .timeline-content span{
+    font-size:.75rem;
+    line-height:1.3;
     color:#e2e8f0;
-    font-size:.9rem;
 }
 
 
