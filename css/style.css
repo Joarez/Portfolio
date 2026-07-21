@@ -519,15 +519,12 @@ body{
     margin-left: auto;
     margin-right: 130px;
 }
-
-.roadmap-down::after {
+.roadmap-arrow::after {
     content: "";
     position: absolute;
-    right: -8px;
-    bottom: -8px;
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-top: 12px solid #45c7f0;
+    left: 0;
+    top: -5px;
+    border-right: 10px solid #00aaff;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
 }
