@@ -469,7 +469,12 @@ body{
     background: #d2d8da;
     border-radius:10px;
 }
-
+.project-card{
+    background:#eaeef2;
+    border-radius:12px;
+    padding:15px;
+    margin-bottom:10px;
+}
 
 
 
