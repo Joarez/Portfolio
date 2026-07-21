@@ -113,9 +113,6 @@ body{
     transform:rotateY(-180deg);
     pointer-events:none;
 }
-.page.flipped{
-    z-index:0 !important;
-}
 
 /* CAPA */
 .cover{
@@ -373,7 +370,7 @@ body{
     padding:10px 18px;
     border-radius:30px;
     cursor:pointer;
-    transition:.3s;
+    transition:.2s;
 }
 .prev-page-btn:hover{
     background:#4cc9f0;
