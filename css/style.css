@@ -45,10 +45,12 @@ body{
     transform-style:preserve-3d;
     backface-visibility:hidden;
 }
-#page1{ z-index:4;}
-#page2{ z-index:3;}
-#page3{ z-index:2;}
-#page4{ z-index:1;}
+#page1{ z-index:6; }
+#page2{ z-index:5; }
+#page3{ z-index:4; }
+#page4{ z-index:3; }
+#page5{ z-index:2; }
+#page6{ z-index:1; }
 
 .hint{
     position:absolute;
@@ -476,47 +478,36 @@ body{
 }
 
 /*Página 6 -> Arquitetura de Automação*/
-#page6 .quality-flow{
-    display:flex;
-    flex-direction:column;
-    gap:8px;
-    margin-top:10px;
-}
-#page6 .flow-card{
+.roadmap{
     display:flex;
     align-items:center;
-    gap:15px;
+    justify-content:center;
+    gap:10px;
+    flex-wrap:wrap;
+}
+.roadmap-card{
+    width:120px;
+    height:120px;
     background:white;
-    padding:12px 18px;
-    border-left:5px solid #4cc9f0;
-    border-radius:10px;
-    box-shadow:0 4px 10px rgba(0,0,0,.08);
-    transition:.3s ease;
+    border-radius:12px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
 }
-#page6 .flow-card:hover{
+.roadmap-card:hover{
     transform:
-        translateX(8px)
-        scale(1.01);
-    box-shadow:
-        0 10px 20px rgba(0,0,0,.12);
+        translateY(-5px)
+        scale(1.05);
 }
-#page6 .flow-icon{
+.roadmap-card .icon{
     font-size:2rem;
-    min-width:50px;
-    text-align:center;
+    margin-bottom:10px;
 }
-#page6 .flow-card h3{
-    color:#243b55;
-    margin-bottom:4px;
-}
-#page6 .flow-card p{
-    font-size:.85rem;
-    color:#555;
-    margin:0;
-}
-#page6 .flow-arrow{
-    text-align:center;
-    font-size:1.4rem;
+.roadmap-arrow{
+    font-size:1.8rem;
     color:#4cc9f0;
     font-weight:bold;
 }
