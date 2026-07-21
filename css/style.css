@@ -368,4 +368,62 @@ body{
     color:white;
 }
 
+/*Capitulo 3 -> Pagina 4 */
+.timeline{
+    position:relative;
+    margin-top:25px;
+    padding-left:40px;
+}
+.timeline::before{
+    content:"";
+    position:absolute;
+    left:10px;
+    top:0;
+    width:4px;
+    height:100%;
+    background:#4cc9f0;
+    border-radius:10px;
+}
+.timeline-item{
+    position:relative;
+    margin-bottom:25px;
+}
+.timeline-item::before{
+    content:"";
+    position:absolute;
+    left:-38px;
+    top:8px;
+    width:16px;
+    height:16px;
+    border-radius:50%;
+    background:#4cc9f0;
+    border:3px solid white;
+}
+.timeline-year{
+    color:#4cc9f0;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+.timeline-content{
+    background:#243b55;
+    color:white;
+    padding:15px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+}
+.timeline-content h3{
+    margin-bottom:5px;
+    color:#4cc9f0;
+}
+.timeline-content p{
+    font-weight:600;
+    margin-bottom:5px;
+}
+.timeline-content span{
+    color:#e2e8f0;
+    font-size:.9rem;
+}
+
+
+
 
