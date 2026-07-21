@@ -466,6 +466,8 @@ body{
     flex-direction:column;
     gap:15px;
     margin-top:20px;
+    background: #d2d8da;
+    border-radius:10px;
 }
 
 
