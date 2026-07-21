@@ -391,9 +391,20 @@ body{
     margin-bottom:5px;
 }
 .timeline-content{
-    background:#96f8e4;
+    background:#eaeef2;
     padding:10px 14px;
     border-radius:10px;
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+    cursor:pointer;
+}
+.timeline-content:hover{
+    transform:
+        translateY(-6px)
+        scale(1.03);
+    box-shadow:
+        0 15px 30px rgba(0,0,0,.18);
 }
 .timeline-content h3{
     font-size:1rem;
