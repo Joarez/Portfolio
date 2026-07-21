@@ -45,10 +45,10 @@ body{
     backface-visibility:hidden;
     cursor:default;
 }
-#page1{ background:red; }
-#page2{ background:blue; }
-#page3{ background:green; }
-#page4{ background:yellow; }
+#page1{z-index:4;}
+#page2{ z-index:3;}
+#page3{z-index:2;}
+#page4{z-index:1;}
 
 .hint{
     position:absolute;
