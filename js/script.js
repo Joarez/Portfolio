@@ -2,10 +2,13 @@ const pages = document.querySelectorAll(".page");
 let currentPage = 0;
 
 /* Avançar */
-function nextPage(){
+    console.log("ANTES:", currentPage);
     if(currentPage < pages.length - 1){
         pages[currentPage].classList.add("flipped");
         currentPage++;
+        console.log("AGORA:", currentPage);
+        console.log("Página:", pages[currentPage].id);
+
     }
 }
 
