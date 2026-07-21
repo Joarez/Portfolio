@@ -391,7 +391,7 @@ body{
     margin-bottom:5px;
 }
 .timeline-content{
-    background:#eaeef2;
+    background: #96f8e4; 
     padding:10px 14px;
     border-radius:10px;
     transition:
@@ -418,6 +418,13 @@ body{
     font-size:.75rem;
     line-height:1.3;
     color:#444444;
+}
+.timeline-year{
+    transition:.3s ease;
+}
+.timeline-item:hover .timeline-year{
+    transform:translateX(8px);
+    color:#243b55;
 }
 
 
