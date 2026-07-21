@@ -50,10 +50,6 @@ body{
 #page3{ z-index:2;}
 #page4{ z-index:1;}
 
-.page.active{
-    z-index:100;
-}
-
 .hint{
     position:absolute;
     bottom:30px;
@@ -186,14 +182,6 @@ body{
     border: 1px solid #4cc9f0;
     font-size:.9rem;
     font-weight:600;
-}
-
-#page1{
-    z-index:2;
-}
-
-#page2{
-    z-index:1;
 }
 
 /* PAGINA INTERNA Capítulo 1 */
