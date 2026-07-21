@@ -10,17 +10,6 @@ function nextPage(){
     }
 }
 
-const nextButtons = document.querySelectorAll(".next-page-btn");
-nextButtons.forEach(button => {
-    button.addEventListener("click", (event) => {
-        event.stopPropagation();
-        if (currentPage < pages.length - 1) {
-            pages[currentPage].classList.add("flipped");
-            currentPage++;
-        }
-    });
-});
-
 function prevPage(){
     if(currentPage > 0){
         pages[currentPage].classList.remove("active");
@@ -29,3 +18,20 @@ function prevPage(){
         pages[currentPage].classList.add("active");
     }
 }
+
+const nextButtons = document.querySelectorAll(".next-page-btn");
+nextButtons.forEach(button => {
+    button.addEventListener("click", (event) => {
+        event.stopPropagation();
+        nextPage();
+    });
+});
+
+const prevButtons = document.querySelectorAll(".prev-page-btn");
+prevButtons.forEach(button => {
+    button.addEventListener("click", (event) => {
+        event.stopPropagation();
+        prevPage();
+    });
+});
+
