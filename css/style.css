@@ -20,6 +20,7 @@ body{
     height:680px;
     position:relative;
     perspective:3000px;
+    transform-style:preserve-3d;
 }
 .book::before{
     content:"";
@@ -111,6 +112,9 @@ body{
 .page.flipped{
     transform:rotateY(-180deg);
     pointer-events:none;
+}
+.page.flipped{
+    z-index:0 !important;
 }
 
 /* CAPA */
