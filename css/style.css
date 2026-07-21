@@ -111,7 +111,7 @@ body{
     transition-duration:1s;
 }
 .page:not(.flipped){
-    transition-duration:.5s;
+    transition-duration:1s;
 }
 
 /* CAPA */
