@@ -462,9 +462,10 @@ body{
         0 8px 18px rgba(0,0,0,.25);
 }
 .projects-grid{
-    display:grid;
-    gap:10px;
-    background:#d2d8da;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-top:20px;
 }
 
 
