@@ -510,17 +510,16 @@ body{
     margin:20px 0;
 }
 .roadmap-down {
-    width: 70px;
+    width: 50px;
     height: 50px;
     border-left: 3px solid #45c7f0;
     border-bottom: 3px solid #45c7f0;
-    border-radius: 0 0 0 35px;
+    border-radius: 0 0 0 30px;
     position: relative;
     margin-left: auto;
-    margin-right: 120px;
-    margin-top: 15px;
-    transform: rotate(-45deg);
+    margin-right: 130px;
 }
+
 .roadmap-down::after {
     content: "";
     position: absolute;
@@ -528,8 +527,7 @@ body{
     bottom: -8px;
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 15px solid #45c7f0;
-    transform: rotate(45deg);
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 12px solid #45c7f0;
 }
