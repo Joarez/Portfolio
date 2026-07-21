@@ -431,6 +431,36 @@ body{
     color:#cc0000;
 }
 
+/*Página Projetos & Cases de Qualidade*/
+.tech-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-top:15px;
+}
+.tech-tags span{
+    display:flex;
+    align-items:center;
+    gap:5px;
+    background:#ffffff;
+    color:#243b55;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:.72rem;
+    font-weight:700;
+    border:1px solid #4cc9f0;
+    transition:.3s ease;
+}
+.tech-tags span:hover{
+    transform:
+        translateY(-4px)
+        scale(1.08);
+    background:#4cc9f0;
+    color:white;
+    box-shadow:
+        0 8px 18px rgba(0,0,0,.25);
+}
+
 
 
 
