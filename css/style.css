@@ -468,8 +468,11 @@ body{
     margin-bottom:0px;
     border:1px solid #4cc9f0;
 }
-.projects-grid{
-    margin-top:0;
+#page5 .chapter-line{
+    margin:0;
+}
+#page5 .projects-grid{
+    margin-top:8px;
 }
 
 
