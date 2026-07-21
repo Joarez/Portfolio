@@ -1,6 +1,13 @@
 const pages = document.querySelectorAll(".page");
 let currentPage = 0;
 
+const openBookBtn = document.querySelector(".open-book-btn");
+openBookBtn.addEventListener("click", (event) => {
+    event.stopPropagation();
+    nextPage();
+
+});
+
 function nextPage(){
     if(currentPage < pages.length - 1){
         pages[currentPage].classList.add("flipped");
