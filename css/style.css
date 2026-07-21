@@ -478,16 +478,34 @@ body{
 }
 
 /*Página 6 -> Arquitetura de Automação*/
-.roadmap-row{
+#page6 .roadmap-row{
     display:flex;
     justify-content:center;
     align-items:center;
     gap:15px;
-    margin-bottom:20px;
+    margin-top:20px;
 }
-.roadmap-down{
+#page6 .roadmap-card{
+    width:220px;
+    min-height:140px;
+    background:white;
+    border-radius:12px;
+    padding:15px;
+    text-align:center;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+    transition:.3s;
+}
+#page6 .roadmap-card:hover{
+    transform:translateY(-5px);
+}
+#page6 .roadmap-arrow{
+    font-size:2rem;
+    color:#4cc9f0;
+    font-weight:bold;
+}
+#page6 .roadmap-down{
     text-align:center;
     font-size:2rem;
     color:#4cc9f0;
-    margin-bottom:20px;
+    margin:20px 0;
 }
