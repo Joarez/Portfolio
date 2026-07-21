@@ -465,8 +465,11 @@ body{
     background:#eaeef2;
     border-radius:10px;
     padding:5px;
-    margin-bottom:5px;
-    border:2px solid #4cc9f0;
+    margin-bottom:0px;
+    border:1px solid #4cc9f0;
+}
+.projects-grid{
+    margin-top:0;
 }
 
 
