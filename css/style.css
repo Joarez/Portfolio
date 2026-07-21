@@ -437,6 +437,7 @@ body{
     flex-wrap:wrap;
     gap:8px;
     margin-top:15px;
+    border-radius:10px;
 }
 .tech-tags span{
     display:flex;
