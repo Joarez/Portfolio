@@ -1,31 +1,32 @@
 const pages = document.querySelectorAll(".page");
 let currentPage = 0;
 
-const openBookBtn = document.querySelector(".open-book-btn");
-openBookBtn.addEventListener("click", (event) => {
-    event.stopPropagation();
-    nextPage();
-
-});
-
+/* Avançar */
 function nextPage(){
     if(currentPage < pages.length - 1){
         pages[currentPage].classList.add("flipped");
-        pages[currentPage].classList.remove("active");
         currentPage++;
-        pages[currentPage].classList.add("active");
     }
 }
 
+/* Voltar */
 function prevPage(){
     if(currentPage > 0){
-        pages[currentPage].classList.remove("active");
         currentPage--;
         pages[currentPage].classList.remove("flipped");
-        pages[currentPage].classList.add("active");
     }
 }
 
+/* Abrir livro */
+const openBookBtn = document.querySelector(".open-book-btn");
+if(openBookBtn){
+    openBookBtn.addEventListener("click", (event) => {
+        event.stopPropagation();
+        nextPage();
+    });
+}
+
+/* Próximo capítulo */
 const nextButtons = document.querySelectorAll(".next-page-btn");
 nextButtons.forEach(button => {
     button.addEventListener("click", (event) => {
@@ -34,6 +35,7 @@ nextButtons.forEach(button => {
     });
 });
 
+/* Voltar */
 const prevButtons = document.querySelectorAll(".prev-page-btn");
 prevButtons.forEach(button => {
     button.addEventListener("click", (event) => {
