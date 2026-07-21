@@ -476,33 +476,47 @@ body{
 }
 
 /*Página 6 -> Arquitetura de Automação*/
-#page6 .architecture-grid{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:15px;
+#page6 .quality-flow{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
     margin-top:10px;
 }
-#page6 .arch-card{
+#page6 .flow-card{
+    display:flex;
+    align-items:center;
+    gap:15px;
     background:white;
+    padding:12px 18px;
     border-left:5px solid #4cc9f0;
-    padding:18px;
     border-radius:10px;
-    box-shadow:0 4px 12px rgba(0,0,0,.08);
-    transition:.3s;
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+    transition:.3s ease;
 }
-#page6 .arch-card:hover{
+#page6 .flow-card:hover{
     transform:
-        translateY(-5px)
-        scale(1.02);
+        translateX(8px)
+        scale(1.01);
     box-shadow:
-        0 12px 25px rgba(0,0,0,.12);
+        0 10px 20px rgba(0,0,0,.12);
 }
-#page6 .arch-card h3{
+#page6 .flow-icon{
+    font-size:2rem;
+    min-width:50px;
+    text-align:center;
+}
+#page6 .flow-card h3{
     color:#243b55;
-    margin-bottom:8px;
+    margin-bottom:4px;
 }
-#page6 .arch-card p{
-    font-size:.9rem;
+#page6 .flow-card p{
+    font-size:.85rem;
     color:#555;
+    margin:0;
 }
-
+#page6 .flow-arrow{
+    text-align:center;
+    font-size:1.4rem;
+    color:#4cc9f0;
+    font-weight:bold;
+}
