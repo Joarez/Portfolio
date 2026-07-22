@@ -568,3 +568,51 @@ body{
     transform:translateY(-5px);
     box-shadow:0 10px 20px rgba(0,0,0,.08);
 }
+
+/*Página 9 -> Contatos*/
+.contact-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+    margin-top:25px;
+}
+.contact-card{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    background:#f8fafc;
+    border:1px solid #dbe3ec;
+    border-radius:12px;
+    padding:15px 20px;
+    transition:.3s;
+}
+.contact-card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 15px rgba(0,0,0,.08);
+}
+.contact-icon{
+    width:42px;
+    height:42px;
+    object-fit:contain;
+}
+.contact-card h3{
+    margin:0;
+    color:#243b55;
+    font-size:1rem;
+}
+.contact-card p{
+    margin:3px 0 0;
+    font-size:.9rem;
+    color:#555;
+}
+.final-message{
+    margin-top:35px;
+    text-align:center;
+}
+.final-message h3{
+    color:#243b55;
+    margin-bottom:8px;
+}
+.final-message p{
+    color:#666;
+}
