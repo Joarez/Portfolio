@@ -55,13 +55,14 @@ body{
     text-align:center;
 }
 .cover-photo{
-    
-    top:10px;
-    left:10px;
+    position:absolute;
+    top:5px;
+    left:5px;
+    z-index:999;
 }
 .cover-photo img{
-    width:110px;
-    height:110px;
+    width:140px;
+    height:140px;
     border-radius:10%;
     object-fit:cover;
     border:4px solid #4cc9f0;
