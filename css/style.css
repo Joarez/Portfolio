@@ -498,3 +498,8 @@ body{
     max-width:950px;
     border-radius:12px;
 }
+#page6 p,
+#page6 li {
+    font-size: 14px;
+    line-height: 1.4;
+}
