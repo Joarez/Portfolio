@@ -481,21 +481,21 @@ body{
 
 /*Página 6 -> Arquitetura de Automação*/
 .flow-intro{
-    margin-top:10px;
-    margin-bottom:15px;
-    font-size:1rem;
-    line-height:1.6;
+    margin-top:0;
+    margin-bottom:10px;
+    font-size:.95rem;
+    line-height:1.5;
     color:#555;
 }
 .flow-image-container{
     display:flex;
     justify-content:center;
     align-items:center;
-    margin-top:10px;
+    margin-top:0;
 }
 .flow-image{
-    width:100%;
-    max-width:850px;
+    width:70%;
+    max-width:600px;
     border-radius:12px;
 }
 #page6 p,
