@@ -490,13 +490,13 @@ body{
 .flow-image-container{
     display:flex;
     justify-content:flex-start;
-    margin-left:-30px;
+    margin-left:-10px;
 }
 .flow-image{
-    width:90%;
+    width:80%;
     max-width:800px;
     border-radius:12px;
-    margin-left:-40px;
+    margin-left:-30px;
 }
 #page6 p,
 #page6 li {
