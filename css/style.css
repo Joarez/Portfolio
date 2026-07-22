@@ -549,6 +549,11 @@ body{
     object-fit:contain;
     margin-bottom:12px;
 }
+.ecosystem-grid{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:20px;
+}
 .ecosystem-card{
     background:#f8fafc;
     border:1px solid #e2e8f0;
