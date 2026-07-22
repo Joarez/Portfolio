@@ -56,8 +56,8 @@ body{
 }
 .cover-photo{
     position:absolute;
-    top:5px;
-    left:5px;
+    top:-5px;
+    left:-5px;
     z-index:999;
 }
 .cover-photo img{
