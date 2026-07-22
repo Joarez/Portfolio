@@ -497,6 +497,7 @@ body{
     width:90%;
     max-width:800px;
     border-radius:12px;
+    margin-left:-25px;
 }
 #page6 p,
 #page6 li {
