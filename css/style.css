@@ -688,4 +688,21 @@ body{
     border:3px solid #4cc9f0;
     margin-bottom:20px;
 }
+@media (max-width:1200px){
+    .book{
+        transform:scale(.85);
+    }
+}
+
+@media (max-width:992px){
+    .book{
+        transform:scale(.70);
+    }
+}
+
+@media (max-width:768px){
+    .book{
+        transform:scale(.55);
+    }
+}
 
