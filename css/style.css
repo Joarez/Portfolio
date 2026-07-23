@@ -680,3 +680,12 @@ body{
     color:#4cc9f0;
     font-weight:600;
 }
+.final-photo img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid #4cc9f0;
+    margin-bottom:20px;
+}
+
