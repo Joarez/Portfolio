@@ -630,17 +630,6 @@ body{
     font-size:.9rem;
     color:#555;
 }
-.final-message{
-    margin-top:35px;
-    text-align:center;
-}
-.final-message h3{
-    color:#243b55;
-    margin-bottom:8px;
-}
-.final-message p{
-    color:#666;
-}
 .cv-download{
     margin-top:25px;
     text-align:center;
