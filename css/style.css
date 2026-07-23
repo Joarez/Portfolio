@@ -705,4 +705,17 @@ body{
         transform:scale(.55);
     }
 }
+@media screen and (max-width: 768px){
+    .book{
+        transform: scale(0.45);
+        transform-origin: center center;
+    }
+}
+@media screen and (max-width: 480px){
+
+    .book{
+        transform: scale(0.35);
+        transform-origin: center center;
+    }
+}
 
